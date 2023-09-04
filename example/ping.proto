@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package pb;
+
+message request
+{
+    optional bytes command = 1;
+}
+
+message response
+{
+    optional bytes results = 1;
+}
+
+service service
+{
+    rpc execute(request) returns (response);
+}
+
+option cc_generic_services = true;

@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package pb;
+
+enum opcode
+{
+    Add = 0;
+    Sub = 1;
+    Mul = 2;
+    Div = 3;
+}
+
+message request
+{
+    optional opcode op = 1;
+    optional int64 lhs = 2;
+    optional int64 rhs = 3;
+}
+
+message response
+{
+    optional int64 value = 1;
+}
+
+service service
+{
+    rpc compute(request) returns (response);
+}
+
+option cc_generic_services = true;
