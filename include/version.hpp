@@ -20,7 +20,7 @@
  *   time a set of code changes is merged to the master branch.
  */
 
-#define URPC_VERSION_NUMBER 1
+#define URPC_VERSION_NUMBER 2
 #define URPC_VERSION_STRING "urpc/" URPC_STRINGIZE(URPC_VERSION_NUMBER)
 
 #endif

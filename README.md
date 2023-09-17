@@ -1,4 +1,4 @@
-# urpc [![LICENSE](https://img.shields.io/github/license/deepgrace/urpc.svg)](https://github.com/deepgrace/urpc/blob/master/LICENSE_1_0.txt) [![Language](https://img.shields.io/badge/language-C%2B%2B20-blue.svg)](https://en.cppreference.com/w/cpp/compiler_support) [![Platform](https://img.shields.io/badge/platform-Linux-lightgrey.svg)](https://github.com/deepgrace/urpc)
+# urpc [![LICENSE](https://img.shields.io/github/license/deepgrace/urpc.svg)](https://github.com/deepgrace/urpc/blob/main/LICENSE_1_0.txt) [![Language](https://img.shields.io/badge/language-C%2B%2B20-blue.svg)](https://en.cppreference.com/w/cpp/compiler_support) [![Platform](https://img.shields.io/badge/platform-Linux-lightgrey.svg)](https://github.com/deepgrace/urpc)
 
 > **Uring based Asynchronous Rpc**
 
